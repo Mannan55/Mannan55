@@ -132,6 +132,7 @@ def generate_report(results):
 
 
 def main():
+    step_summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
     print(f"[INFO] Auditing public repositories for user '{USERNAME}'...")
     st, repos = fetch_json(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=updated")
     if st != 200 or not repos:
@@ -145,14 +146,15 @@ def main():
     report_md = generate_report(results)
     print("\n" + report_md + "\n")
 
-    if STEP_SUMMARY_PATH:
+    if step_summary_path:
         try:
-            with open(STEP_SUMMARY_PATH, "a", encoding="utf-8") as f:
+            with open(step_summary_path, "a", encoding="utf-8") as f:
                 f.write("\n" + report_md + "\n")
-            print(f"[SUCCESS] Wrote audit report to {STEP_SUMMARY_PATH}")
+            print(f"[SUCCESS] Wrote audit report to {step_summary_path}")
         except Exception as e:
             print(f"[WARN] Failed writing to step summary: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
     main()
+

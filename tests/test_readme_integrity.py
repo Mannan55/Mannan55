@@ -31,7 +31,7 @@ class TestReadmeIntegrity(unittest.TestCase):
             "TrustForge",
             "Technical Competencies",
             "Education & Verified Credentials",
-            "Engineering Analytics & Activity",
+            "Engineering Telemetry & Activity",
             "Connect & Verification"
         ]
         for header in required_headers:
@@ -65,3 +65,4 @@ class TestReadmeIntegrity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

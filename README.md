@@ -52,7 +52,7 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
-* **Hybrid Retrieval Architecture:** Integrates dense vector search with sparse BM25 retrieval fused via Reciprocal Rank Fusion ($k=60$) for precise legal grounding.
+* **Hybrid Retrieval Architecture:** Integrates dense vector search with sparse BM25 retrieval fused via Reciprocal Rank Fusion ($k=60$) for precise statutory grounding.
 * **Deterministic Trust Engine:** Evaluates compliance across six statutory pillars (Privacy, Security, Transparency, Governance, Lifecycle, Rights) with mandatory gating controls.
 * **Multi-Criteria Model Selection:** Implements TOPSIS decision criteria to benchmark 10 model configurations under a strict zero-commercial-spend operational boundary.
 * **Durable Security Store:** Local-first storage engine with tenant-isolated directories, SHA-256 evidence hashing, and an append-only audit trail.
@@ -78,33 +78,30 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 ## 🎓 Education & Verified Credentials
 
 * **B.Sc. in Information Technology** — Usha Pravin Gandhi College, Mumbai *(Expected Graduation: 2027)*
-* **Cisco Certified Network Associate (CCNA) Coursework** — *Completed CCNA curriculum training covering IP connectivity, network access, IP services, and security fundamentals.*
-* **Active Learning Track** — Practical SOC investigation playbooks, detection engineering, and Certified Ethical Hacker (CEH) study curriculum.
+* **Cisco Certified Network Associate (CCNA) Coursework** — *Completed CCNA curriculum training covering IP connectivity, network access, IP services, and security fundamentals. (Training completion; not Cisco certified).*
+* **Active Learning Track** — *Hands-on SOC investigation workflows, detection engineering with MITRE ATT&CK, and Certified Ethical Hacker (CEH) study curriculum (actively studying; not certified).*
 
 ---
 
-## 📈 Engineering Analytics & Activity
+## 📈 Engineering Telemetry & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mannan55&show_icons=true&theme=tokyonight&hide_border=true&count_private=false" alt="Mannan55's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mannan55&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="assets/profile-metrics.svg" alt="Mannan Shah Engineering Metrics" width="100%" />
 </div>
 
 <br>
 
 ### 🔄 Recent Development Activity
 <!-- RECENT_ACTIVITY:START -->
-- 🕒 **2026-11-12** — Pushed updates to [Mannan55/tiny-tyrants](https://github.com/Mannan55/tiny-tyrants) to `main`
-- 🕒 **2026-10-31** — Pushed updates to [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) to `main`
-- 🕒 **2026-10-31** — Created branch `fix/sprint5-security-and-report-integrity` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
-- 🕒 **2026-10-31** — Created branch `feature/sprint4-security-event-ingestion` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
-- 🕒 **2026-10-31** — Created branch `feature/sprint5-investigation-reports` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
-- 🕒 **2026-10-31** — Pushed updates to [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) to `feature/sprint3-final-hardening`
+*No recent public activity recorded within GitHub's 90-day event window.*
 <!-- RECENT_ACTIVITY:END -->
 
 ### 📦 Latest Project Releases & Tags
 <!-- RECENT_RELEASES:START -->
-*Active repositories use source tags and trunk-based CI verification (`main`). Official tagged release distribution packages will appear here.*
+**Active Git Source Tags (CI Verified):**
+- 🏷️ **[AuthGuard-X](https://github.com/Mannan55/AuthGuard-X/tree/v3)** — Source Tag [`v3`](https://github.com/Mannan55/AuthGuard-X/tree/v3) *(Trunk CI Verified)*
+- 🏷️ **[tiny-tyrants](https://github.com/Mannan55/tiny-tyrants/tree/v1.1.0)** — Source Tag [`v1.1.0`](https://github.com/Mannan55/tiny-tyrants/tree/v1.1.0) *(Trunk CI Verified)*
+- 🏷️ **[TrustForge](https://github.com/Mannan55/TrustForge/tree/v1.0.0-release)** — Source Tag [`v1.0.0-release`](https://github.com/Mannan55/TrustForge/tree/v1.0.0-release) *(Trunk CI Verified)*
 <!-- RECENT_RELEASES:END -->
 
 ---
