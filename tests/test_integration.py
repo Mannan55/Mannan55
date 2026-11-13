@@ -110,12 +110,14 @@ class TestIntegration(unittest.TestCase):
     def test_audit_workflow_end_to_end_step_summary(self, mock_fetch):
         summary_file = os.path.join(self.test_dir.name, "step_summary.md")
         mock_fetch.side_effect = [
-            # Repos list
+            # 1. Repos list
             (200, [
-                {"name": "AuthGuard-X", "html_url": "https://github.com/Mannan55/AuthGuard-X", "description": "Local SOC", "topics": ["soc"], "license": {"key": "mit"}, "default_branch": "main", "archived": False, "fork": False}
+                {"name": "AuthGuard-X", "html_url": "https://github.com/Mannan55/AuthGuard-X", "description": "Local SOC training control room", "topics": ["soc"], "license": {"key": "mit"}, "default_branch": "main", "archived": False, "fork": False}
             ]),
-            # README check
-            (200, {"content": "dGVzdA=="})
+            # 2. README check
+            (200, {"content": "dGVzdA=="}),
+            # 3. Workflows check
+            (200, {"total_count": 1, "workflows": [{"name": "CI"}]})
         ]
 
         with patch.dict(os.environ, {"GITHUB_STEP_SUMMARY": summary_file}):
@@ -124,7 +126,7 @@ class TestIntegration(unittest.TestCase):
         self.assertTrue(os.path.exists(summary_file))
         with open(summary_file, "r", encoding="utf-8") as f:
             summary = f.read()
-        self.assertIn("# 🛡️ Automated Public Portfolio Quality Audit", summary)
+        self.assertIn("# Public Portfolio Quality and Health Audit", summary)
         self.assertIn("AuthGuard-X", summary)
 
 if __name__ == "__main__":

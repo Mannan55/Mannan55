@@ -1,7 +1,7 @@
 # Mannan Shah
 
 <p align="left">
-  <strong>Aspiring SOC Analyst & Cybersecurity Engineer</strong> • B.Sc. IT (Expected 2027)<br>
+  <strong>Aspiring SOC Analyst and Cybersecurity Engineer</strong> | B.Sc. IT (Expected 2027)<br>
   <em>Focus: Incident Investigation, Detection Engineering, Security Telemetry, and AI-Assisted Compliance</em>
 </p>
 
@@ -9,12 +9,12 @@
   <a href="https://www.linkedin.com/in/mannan-shah"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
   <a href="https://github.com/Mannan55"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub Profile" /></a>
   <img src="https://img.shields.io/badge/Location-Mumbai%2C%20India-blue" alt="Location: Mumbai, India" />
-  <img src="https://img.shields.io/badge/Status-Actively%20Building%20%26%20Learning-success" alt="Status" />
+  <img src="https://img.shields.io/badge/Focus-Detection%20%26%20Response-success" alt="Focus: Detection and Response" />
 </p>
 
 ---
 
-## 🛡️ Profile Overview
+## Profile Overview
 
 Third-year **B.Sc. Information Technology** student at Usha Pravin Gandhi College, Mumbai (graduating in 2027), targeting entry-level **Security Operations Center (SOC) Analyst**, **Cybersecurity Internship**, and **Junior Security Engineering** positions.
 
@@ -22,9 +22,9 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ---
 
-## 🔬 Featured Engineering Projects
+## Featured Engineering Projects
 
-### 1. [AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) — Local-First SOC Training & Investigation Platform
+### 1. [AuthGuard-X](https://github.com/Mannan55/AuthGuard-X): Local-First SOC Training and Investigation Platform
 
 > A self-contained, local-first practice control room for security operations, detection testing, and incident investigation.
 
@@ -34,8 +34,8 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 * **Telemetry Ingestion:** Parses RFC 5424 syslog, Linux authentication logs, Windows failed-login records, Palo Alto firewall traffic logs, and NDJSON streams into structured SQLite storage.
 * **Detection Engineering:** Rule-based detection engine featuring configurable time-window correlation and contextual **MITRE ATT&CK** technique classification.
-* **Investigation Workflow:** Full incident response lifecycle management (**New → Investigating → Contained → Resolved**), evidence tracking, and analyst case notes.
-* **Reporting & Integrity:** Deterministic findings verification with structured HTML and JSON export for incident review.
+* **Investigation Workflow:** Full incident response lifecycle management (**New -> Investigating -> Contained -> Resolved**), evidence tracking, and analyst case notes.
+* **Reporting and Integrity:** Deterministic findings verification with structured HTML and JSON export for incident review.
 * **Security Controls:** Session authentication, bcrypt password hashing, CSRF defense, rate limiting, and role-based access checks.
 * **Scope Boundary:** *Engineered as a local-first training simulator and investigation workspace. Generates synthetic training records; does not interact with remote enterprise endpoints.*
 
@@ -43,7 +43,7 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ---
 
-### 2. [TrustForge](https://github.com/Mannan55/TrustForge) — DPDP Compliance & Privacy Assessment Platform
+### 2. [TrustForge](https://github.com/Mannan55/TrustForge): DPDP Compliance and Privacy Assessment Platform
 
 > An automated compliance auditing, risk assessment, and decision-support platform benchmarked against India's Digital Personal Data Protection (DPDP) Act 2023.
 
@@ -62,28 +62,28 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ---
 
-## 🛠️ Technical Competencies
+## Technical Competencies
 
-| Domain | Tools & Technologies |
+| Domain | Tools and Technologies |
 | :--- | :--- |
-| **Security Operations & Detection** | MITRE ATT&CK Mapping, Alert Triage, Time-Window Event Correlation, Synthetic Attack Simulation, Incident Case Lifecycle Management |
-| **Log Analysis & Telemetry** | Syslog (RFC 5424), Linux Auth Logs, Windows Event Logs, Palo Alto Firewall Logs, NDJSON Ingestion, Wireshark |
-| **Networking & Systems** | TCP/IP Suite, Subnetting, VLANs, Routing/Switching Fundamentals, Linux Administration, Windows Administration |
-| **Development & Automation** | Python, TypeScript, Node.js, Express, Flask, SQL (SQLite / PostgreSQL), HTML/CSS, Bash Scripting |
-| **Testing & CI/CD** | Pytest, Playwright, GitHub Actions Workflows, Automated Code Quality & Linting |
-| **Governance & Frameworks** | Digital Personal Data Protection (DPDP) Act 2023 Assessment, Evidence-Linked Auditing, Risk Scoring |
+| **Security Operations and Detection** | MITRE ATT&CK Mapping, Alert Triage, Time-Window Event Correlation, Synthetic Attack Simulation, Incident Case Lifecycle Management |
+| **Log Analysis and Telemetry** | Syslog (RFC 5424), Linux Auth Logs, Windows Event Logs, Palo Alto Firewall Logs, NDJSON Ingestion, Wireshark |
+| **Networking and Systems** | TCP/IP Suite, Subnetting, VLANs, Routing/Switching Fundamentals, Linux Administration, Windows Administration |
+| **Development and Automation** | Python, TypeScript, Node.js, Express, Flask, SQL (SQLite / PostgreSQL), HTML/CSS, Bash Scripting |
+| **Testing and CI/CD** | Pytest, Playwright, GitHub Actions Workflows, Automated Code Quality and Linting |
+| **Governance and Frameworks** | Digital Personal Data Protection (DPDP) Act 2023 Assessment, Evidence-Linked Auditing, Risk Scoring |
 
 ---
 
-## 🎓 Education & Verified Credentials
+## Education and Verified Credentials
 
-* **B.Sc. in Information Technology** — Usha Pravin Gandhi College, Mumbai *(Expected Graduation: 2027)*
-* **Cisco Certified Network Associate (CCNA) Coursework** — *Completed CCNA curriculum training covering IP connectivity, network access, IP services, and security fundamentals. (Training completion; not Cisco certified).*
-* **Active Learning Track** — *Hands-on SOC investigation workflows, detection engineering with MITRE ATT&CK, and Certified Ethical Hacker (CEH) study curriculum (actively studying; not certified).*
+* **B.Sc. in Information Technology**: Usha Pravin Gandhi College, Mumbai *(Expected Graduation: 2027)*
+* **Cisco Certified Network Associate (CCNA) Coursework**: *Completed CCNA curriculum training covering IP connectivity, network access, IP services, and security fundamentals (training completion; not Cisco certified).*
+* **Active Learning Track**: *Hands-on SOC investigation workflows, detection engineering with MITRE ATT&CK, and Certified Ethical Hacker (CEH) study curriculum (actively studying; not certified).*
 
 ---
 
-## 📈 Engineering Telemetry & Activity
+## Engineering Telemetry and Activity
 
 <div align="center">
   <img src="assets/profile-metrics.svg" alt="Mannan Shah Engineering Metrics" width="100%" />
@@ -91,22 +91,19 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 <br>
 
-### 🔄 Recent Development Activity
+### Recent Development Activity
 <!-- RECENT_ACTIVITY:START -->
 *No recent public activity recorded within GitHub's 90-day event window.*
 <!-- RECENT_ACTIVITY:END -->
 
-### 📦 Latest Project Releases & Tags
+### Latest Project Releases and Tags
 <!-- RECENT_RELEASES:START -->
-**Active Git Source Tags (CI Verified):**
-- 🏷️ **[AuthGuard-X](https://github.com/Mannan55/AuthGuard-X/tree/v3)** — Source Tag [`v3`](https://github.com/Mannan55/AuthGuard-X/tree/v3) *(Trunk CI Verified)*
-- 🏷️ **[tiny-tyrants](https://github.com/Mannan55/tiny-tyrants/tree/v1.1.0)** — Source Tag [`v1.1.0`](https://github.com/Mannan55/tiny-tyrants/tree/v1.1.0) *(Trunk CI Verified)*
-- 🏷️ **[TrustForge](https://github.com/Mannan55/TrustForge/tree/v1.0.0-release)** — Source Tag [`v1.0.0-release`](https://github.com/Mannan55/TrustForge/tree/v1.0.0-release) *(Trunk CI Verified)*
+*Active repositories use trunk-based CI verification (`main`). Official tagged distribution packages will appear here.*
 <!-- RECENT_RELEASES:END -->
 
 ---
 
-## 📬 Connect & Verification
+## Professional Verification and Contact
 
 * **LinkedIn:** [linkedin.com/in/mannan-shah](https://www.linkedin.com/in/mannan-shah)
 * **GitHub Repositories:** [github.com/Mannan55](https://github.com/Mannan55)

@@ -151,7 +151,7 @@ def generate_activity_markdown(events):
             dedup_key = (repo_name, created_at, desc)
             if dedup_key not in seen:
                 seen.add(dedup_key)
-                items.append(f"- 🕒 **{created_at}** — {desc}")
+                items.append(f"- **{created_at}**: {desc}")
 
         if len(items) >= 6:
             break
@@ -182,14 +182,14 @@ def generate_releases_and_tags_markdown(repos):
             url = latest.get("html_url", f"https://github.com/{USERNAME}/{repo_name}")
             date = format_timestamp(latest.get("published_at", ""))
             name = latest.get("name") or tag
-            official_releases.append(f"- 🚀 **[{repo_name}]({url})** — Official Release [{name}]({url}) ({date})")
+            official_releases.append(f"- **[{repo_name}]({url})**: Official Release [{name}]({url}) ({date})")
         else:
             # 2. Check Git Tags API if no official release
             st_tag, tags, _ = fetch_json(f"https://api.github.com/repos/{USERNAME}/{repo_name}/tags")
             if st_tag == 200 and tags:
                 latest_tag = tags[0].get("name")
                 tag_url = f"https://github.com/{USERNAME}/{repo_name}/tree/{latest_tag}"
-                source_tags.append(f"- 🏷️ **[{repo_name}]({tag_url})** — Source Tag [`{latest_tag}`]({tag_url}) *(Trunk CI Verified)*")
+                source_tags.append(f"- **[{repo_name}]({tag_url})**: Source Tag [`{latest_tag}`]({tag_url}) *(Trunk CI Verified)*")
 
     lines = []
     if official_releases:

@@ -29,7 +29,7 @@
   <g transform="translate(250, 30)">
     <text x="0" y="0" class="title">SECURITY DOMAINS</text>
     <text x="0" y="30" class="value">SOC Triage &amp; Detection</text>
-    <text x="0" y="55" class="label">MITRE ATT&amp;CK • DPDP Compliance</text>
+    <text x="0" y="55" class="label">MITRE ATT&amp;CK &amp; DPDP Compliance</text>
   </g>
 
   <line x1="510" y1="25" x2="510" y2="125" class="divider" />

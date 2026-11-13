@@ -11,8 +11,11 @@ class TestAuditPortfolio(unittest.TestCase):
 
     @patch("audit_portfolio.fetch_json")
     def test_audit_repository_healthy(self, mock_fetch):
-        # Mock README check returning 200
-        mock_fetch.return_value = (200, {"content": "dGVzdA=="})
+        # Mock API calls: README check and workflows check
+        mock_fetch.side_effect = [
+            (200, {"content": "dGVzdA=="}), # README
+            (200, {"total_count": 1, "workflows": [{"name": "CI"}]}) # Workflows
+        ]
         repo = {
             "name": "AuthGuard-X",
             "html_url": "https://github.com/Mannan55/AuthGuard-X",
@@ -25,12 +28,12 @@ class TestAuditPortfolio(unittest.TestCase):
         }
         res = audit_portfolio.audit_repository(repo)
         self.assertEqual(res["score"], 100)
-        self.assertIn("Excellent", res["status"])
+        self.assertEqual(res["status"], "Healthy")
         self.assertEqual(len(res["issues"]), 0)
 
     @patch("audit_portfolio.fetch_json")
     def test_audit_repository_missing_metadata(self, mock_fetch):
-        # Mock README check returning 404
+        # Mock API calls returning 404
         mock_fetch.return_value = (404, None)
         repo = {
             "name": "empty-project",
@@ -44,7 +47,7 @@ class TestAuditPortfolio(unittest.TestCase):
         }
         res = audit_portfolio.audit_repository(repo)
         self.assertEqual(res["score"], 0)
-        self.assertIn("Action Required", res["status"])
+        self.assertEqual(res["status"], "Action Required")
         self.assertIn("Missing description", res["issues"])
         self.assertIn("Missing topics", res["issues"])
         self.assertIn("Missing LICENSE", res["issues"])
@@ -55,10 +58,11 @@ class TestAuditPortfolio(unittest.TestCase):
             {
                 "name": "AuthGuard-X",
                 "url": "https://github.com/Mannan55/AuthGuard-X",
-                "score": 80,
-                "status": "🟢 Excellent",
-                "has_readme": "✅ Yes",
-                "has_license": "✅ Yes",
+                "score": 85,
+                "status": "Healthy",
+                "has_readme": "Yes",
+                "has_license": "Yes",
+                "has_ci": "Yes",
                 "topics_count": 0,
                 "issues": ["Missing topics"],
                 "recommendations": ["Add 4-6 relevant tags"],
@@ -67,7 +71,7 @@ class TestAuditPortfolio(unittest.TestCase):
             }
         ]
         md = audit_portfolio.generate_report(results)
-        self.assertIn("# 🛡️ Automated Public Portfolio Quality Audit", md)
+        self.assertIn("# Public Portfolio Quality and Health Audit", md)
         self.assertIn("AuthGuard-X", md)
         self.assertIn("Missing topics", md)
         self.assertIn("Add 4-6 relevant tags", md)

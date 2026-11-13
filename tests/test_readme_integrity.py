@@ -30,9 +30,9 @@ class TestReadmeIntegrity(unittest.TestCase):
             "AuthGuard-X",
             "TrustForge",
             "Technical Competencies",
-            "Education & Verified Credentials",
-            "Engineering Telemetry & Activity",
-            "Connect & Verification"
+            "Education and Verified Credentials",
+            "Engineering Telemetry and Activity",
+            "Professional Verification and Contact"
         ]
         for header in required_headers:
             self.assertIn(header, self.content, f"Missing required header/section: '{header}'")
