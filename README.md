@@ -62,6 +62,24 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ---
 
+### 3. [SOC Detection Engineering Lab](https://github.com/Mannan55/soc-detection-lab): Detection-as-Code Research and Testing Environment
+
+> A modular Detection-as-Code (DaC) laboratory with Sigma rules, synthetic telemetry fixtures, MITRE ATT&CK mappings, and automated continuous integration testing.
+
+[![CI Verification](https://github.com/Mannan55/soc-detection-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Mannan55/soc-detection-lab/actions/workflows/ci.yml)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Sigma Standard](https://img.shields.io/badge/Format-Sigma%20Standard-orange)](https://github.com/Mannan55/soc-detection-lab/blob/main/docs/SIGMA_SPECIFICATION.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Mannan55/soc-detection-lab/blob/main/LICENSE)
+
+* **Detection-as-Code Architecture:** Employs standardized Sigma YAML rules tested against positive adversary telemetry and negative benign operational baselines.
+* **Telemetry Verification:** Validates rules against Windows Security Event 4688 / Sysmon (encoded PowerShell execution) and Linux Syslog (sudo GTFOBins privilege escalation).
+* **Investigation Playbooks:** Accompanied by Tier-1 and Tier-2 triage guides, base64 payload extraction routines, and host containment playbooks.
+* **Scope Boundary:** *Engineered as a controlled Detection-as-Code research environment. 100% test accuracy reflects synthetic unit fixture coverage rather than real-world enterprise guarantees.*
+
+**Stack:** Python 3.12, Pytest, Sigma Rules, YAML, Windows/Linux Security Telemetry.
+
+---
+
 ## Technical Competencies
 
 | Domain | Tools and Technologies |
@@ -93,12 +111,7 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ### Recent Development Activity
 <!-- RECENT_ACTIVITY:START -->
-- **2026-11-12**: Pushed updates to [Mannan55/tiny-tyrants](https://github.com/Mannan55/tiny-tyrants) to `main`
-- **2026-10-31**: Pushed updates to [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) to `main`
-- **2026-10-31**: Created branch `fix/sprint5-security-and-report-integrity` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
-- **2026-10-30**: Pushed updates to [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) to `main`
-- **2026-10-31**: Created branch `feature/sprint4-security-event-ingestion` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
-- **2026-10-31**: Created branch `feature/sprint5-investigation-reports` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
+*No recent public activity recorded within GitHub's 90-day event window.*
 <!-- RECENT_ACTIVITY:END -->
 
 ### Latest Project Releases and Tags
