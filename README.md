@@ -93,12 +93,20 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ### Recent Development Activity
 <!-- RECENT_ACTIVITY:START -->
-*No recent public activity recorded within GitHub's 90-day event window.*
+- **2026-11-12**: Pushed updates to [Mannan55/tiny-tyrants](https://github.com/Mannan55/tiny-tyrants) to `main`
+- **2026-10-31**: Pushed updates to [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) to `main`
+- **2026-10-31**: Created branch `fix/sprint5-security-and-report-integrity` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
+- **2026-10-30**: Pushed updates to [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X) to `main`
+- **2026-10-31**: Created branch `feature/sprint4-security-event-ingestion` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
+- **2026-10-31**: Created branch `feature/sprint5-investigation-reports` in [Mannan55/AuthGuard-X](https://github.com/Mannan55/AuthGuard-X)
 <!-- RECENT_ACTIVITY:END -->
 
 ### Latest Project Releases and Tags
 <!-- RECENT_RELEASES:START -->
-*Active repositories use trunk-based CI verification (`main`). Official tagged distribution packages will appear here.*
+**Active Git Source Tags (CI Verified):**
+- **[AuthGuard-X](https://github.com/Mannan55/AuthGuard-X/tree/v3)**: Source Tag [`v3`](https://github.com/Mannan55/AuthGuard-X/tree/v3) *(Trunk CI Verified)*
+- **[tiny-tyrants](https://github.com/Mannan55/tiny-tyrants/tree/v1.1.0)**: Source Tag [`v1.1.0`](https://github.com/Mannan55/tiny-tyrants/tree/v1.1.0) *(Trunk CI Verified)*
+- **[TrustForge](https://github.com/Mannan55/TrustForge/tree/v1.0.0-release)**: Source Tag [`v1.0.0-release`](https://github.com/Mannan55/TrustForge/tree/v1.0.0-release) *(Trunk CI Verified)*
 <!-- RECENT_RELEASES:END -->
 
 ---

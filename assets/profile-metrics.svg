@@ -19,7 +19,7 @@
   <!-- Column 1: Public Repos -->
   <g transform="translate(35, 30)">
     <text x="0" y="0" class="title">REPOSITORIES</text>
-    <text x="0" y="30" class="value">4 Public Projects</text>
+    <text x="0" y="30" class="value">5 Public Projects</text>
     <text x="0" y="55" class="label">Verified &amp; Maintained</text>
   </g>
 
