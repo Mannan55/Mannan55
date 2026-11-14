@@ -111,7 +111,12 @@ My technical work emphasizes **evidence-grounded engineering**: building local-f
 
 ### Recent Development Activity
 <!-- RECENT_ACTIVITY:START -->
-*No recent public activity recorded within GitHub's 90-day event window.*
+- **2026-11-13**: Pushed updates to [Mannan55/soc-detection-lab](https://github.com/Mannan55/soc-detection-lab) to `main`
+- **2026-11-13**: Created branch `feature/win-auth-bruteforce-event-4625` in [Mannan55/soc-detection-lab](https://github.com/Mannan55/soc-detection-lab)
+- **2026-11-13**: Created branch `main` in [Mannan55/Mannan55](https://github.com/Mannan55/Mannan55)
+- **2026-11-13**: Merged PR [#6 ](https://github.com/Mannan55/soc-detection-lab) in [Mannan55/soc-detection-lab](https://github.com/Mannan55/soc-detection-lab)
+- **2026-11-13**: Opened PR [#6 ](https://github.com/Mannan55/soc-detection-lab) in [Mannan55/soc-detection-lab](https://github.com/Mannan55/soc-detection-lab)
+- **2026-11-13**: Merged PR [#5 ](https://github.com/Mannan55/soc-detection-lab) in [Mannan55/soc-detection-lab](https://github.com/Mannan55/soc-detection-lab)
 <!-- RECENT_ACTIVITY:END -->
 
 ### Latest Project Releases and Tags
